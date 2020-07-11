@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Hulya Krakaya Blog`,
+    title: `Hulya Karakaya Blog`,
     description: `personal blogs`,
     author: `@hulyakarakaya`,
   },
@@ -25,7 +25,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [`gatsby-remark-reading-time`],
-      }
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -45,4 +45,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
