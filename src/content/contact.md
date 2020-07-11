@@ -1,9 +1,9 @@
 ---
-type: 'page'
-date: '2020-02-10'
-image: '../images/blog-image-2.jpg'
-slug: 'page-2'
-title: 'Ex ius nisl mucius eleifend'
+type: "page"
+date: "2020-07-06"
+image: "../images/blog-image-2.jpg"
+slug: "page-2"
+title: "Ex ius nisl mucius eleifend"
 ---
 
 Lorem ipsum dolor sit amet, tota delicata sea an, his no aeterno delicata, postea animal qui in. Per scribentur consectetuer et, quo ei tale impedit. Nam ne legendos scribentur, tale oblique inermis at vis. Te corpora theophrastus est, est in porro laoreet, te pri augue facilis. In novum omittam his.

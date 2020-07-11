@@ -1,9 +1,9 @@
 ---
-type: 'post'
-date: '2020-02-10'
-image: '../../images/blog-image-2.jpg'
-slug: 'post-2'
-title: 'Ex ius nisl mucius eleifend'
+type: "post"
+date: "2020-07-06"
+image: "../../images/blog-image-2.jpg"
+slug: "post-2"
+title: "Ex ius nisl mucius eleifend"
 published: true
 ---
 

@@ -1,9 +1,9 @@
 ---
-type: 'post'
-date: '2019-10-01'
-image: '../../images/blog-image-4.jpg'
-slug: 'post-14'
-title: 'Tota ornatus delicata pro ut'
+type: "post"
+date: "2019-07-06"
+image: "../../images/blog-image-4.jpg"
+slug: "post-14"
+title: "Tota ornatus delicata pro ut"
 published: true
 ---
 

@@ -1,9 +1,9 @@
 ---
-type: 'post'
-date: '2020-02-07'
-image: '../../images/blog-image-5.jpg'
-slug: 'post-5'
-title: 'Vim graece menandri eu'
+type: "post"
+date: "2020-07-06"
+image: "../../images/blog-image-5.jpg"
+slug: "post-5"
+title: "Vim graece menandri eu"
 published: true
 ---
 

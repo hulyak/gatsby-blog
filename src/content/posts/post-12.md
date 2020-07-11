@@ -1,9 +1,9 @@
 ---
-type: 'post'
-date: '2019-12-01'
-image: '../../images/blog-image-2.jpg'
-slug: 'post-12'
-title: 'Quo democritum adversarium'
+type: "post"
+date: "2019-07-06"
+image: "../../images/blog-image-2.jpg"
+slug: "post-12"
+title: "Quo democritum adversarium"
 published: true
 ---
 

@@ -1,9 +1,9 @@
 ---
-type: 'post'
-date: '2019-11-01'
-image: '../../images/blog-image-3.jpg'
-slug: 'post-13'
-title: 'Cu natum omittantur necessitatibus'
+type: "post"
+date: "2019-07-06"
+image: "../../images/blog-image-3.jpg"
+slug: "post-13"
+title: "Cu natum omittantur necessitatibus"
 published: true
 ---
 
