@@ -1,20 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState } from "react"
 // internal links
-import { Link } from 'gatsby';
+import { Link } from "gatsby"
 //components
-import Menu from 'components/Menu';
-import Hamburger from 'components/Hamburger';
-import MobileMenu from 'components/MobileMenu';
+import Menu from "components/Menu"
+import Hamburger from "components/Hamburger"
+import MobileMenu from "components/MobileMenu"
 //Hooks
-import { useSiteConfigQuery } from 'hooks/useSiteConfigQuery';
+import { useSiteConfigQuery } from "hooks/useSiteConfigQuery"
 //styles
-import { Wrapper, Logo } from './Header.styles';
+import { Wrapper, Logo } from "./Header.styles"
 
 //if there is no title, it will be an empty string
 const Header = ({ siteTitle = `` }) => {
-  const siteConfig = useSiteConfigQuery();
+  const siteConfig = useSiteConfigQuery()
   //state
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false)
 
   return (
     <Wrapper>
@@ -27,7 +27,7 @@ const Header = ({ siteTitle = `` }) => {
       </Link>
       <div>Mode Button</div>
     </Wrapper>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

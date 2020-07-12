@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 export const HamburgerIcon = styled.div`
   display: block;
@@ -9,7 +9,7 @@ export const HamburgerIcon = styled.div`
   :after,
   :before,
   div {
-    background-color: ${(props) => props.theme.colors.textDark};
+    background-color: ${props => props.theme.colors.textDark};
     border-radius: 2px;
     content: "";
     display: block;
@@ -19,20 +19,20 @@ export const HamburgerIcon = styled.div`
   }
 
   :before {
-    transform: ${(props) =>
-      props.menuOpen ? 'translateY(9px) rotate(45deg)' : ''};
+    transform: ${props =>
+      props.menuOpen ? "translateY(9px) rotate(45deg)" : ""};
   }
 
   :after {
-    transform: ${(props) =>
-      props.menuOpen ? 'translateY(-9px) rotate(-45deg)' : ''};
+    transform: ${props =>
+      props.menuOpen ? "translateY(-9px) rotate(-45deg)" : ""};
   }
 
   div {
-    transform: ${(props) => (props.menuOpen ? 'scale(0)' : '')};
+    transform: ${props => (props.menuOpen ? "scale(0)" : "")};
   }
 
   @media screen and (min-width: 768px) {
     display: none;
   }
-`;
+`
