@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
+// styles
+import { Nav } from './Menu.styles';
 
 //implicit return
 //content/siteconfig.md
 const Menu = ({ items }) => (
-  <ul>
+  <Nav>
     {items.map((item) => (
       <li key={item.id}>
         <Link to={item.link} activeClassName="active">
@@ -12,7 +14,7 @@ const Menu = ({ items }) => (
         </Link>
       </li>
     ))}
-  </ul>
+  </Nav>
 );
 
 export default Menu;
