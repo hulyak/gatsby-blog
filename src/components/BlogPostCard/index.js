@@ -4,6 +4,15 @@ import { Link } from 'gatsby';
 //ICONS
 import DateIcon from 'images/calendar.svg';
 import TimeIcon from 'images/watch.svg';
+//styles
+import {
+  CardWrapper,
+  ImgWrapper,
+  TextWrapper,
+  StatWrapper,
+  DateWrapper,
+  ReadingTimeWrapper,
+} from './BlogPostCard.styles';
 
 const BlogPostCard = ({ slug, title, date, readingTime, excerpt, image }) => (
   <CardWrapper>
