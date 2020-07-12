@@ -1,4 +1,4 @@
-![Run on Repl.it](https://repl.it/badge/github/hulyak/gatsby-blog)](https://repl.it/github/hulyak/gatsby-blog)
+[![Run on Repl.it](https://repl.it/badge/github/hulyak/gatsby-blog)](https://repl.it/github/hulyak/gatsby-blog)
 
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
