@@ -1,6 +1,8 @@
 import React from 'react';
 // internal links
 import { Link } from 'gatsby';
+
+import Menu from 'components/Menu';
 //Hooks
 import { useSiteConfigQuery } from 'hooks/useSiteConfigQuery';
 //styles
@@ -12,10 +14,12 @@ const Header = ({ siteTitle = `` }) => {
 
   return (
     <Wrapper>
+      <Menu items={siteConfig.menu} />
       {/* to props for home page path */}
       <Link to="/">
         <Logo src={siteConfig.logo.publicURL} alt={siteTitle} />
       </Link>
+      <div>Mode Button</div>
     </Wrapper>
   );
 };
